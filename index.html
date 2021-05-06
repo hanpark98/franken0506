@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FRANKENSTEIN TYPOGRAPHY DESIGN</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<style type="text/css">
+		html{font-family: 'Roboto', sans-serif;}
+		section{}
+		footer{margin: auto; background: none;}
+		body{margin:0; background: black;}
+		div{margin: auto; width: 1500px; height: 173px; background: none; position: relative;}
+		img{display: block; margin-left: auto; margin-right: auto;}
+		header{height:2000px;}
+		h1{color: white; font-size: 4rem; margin:0px; padding-top: 30px;}
+		h2{color: rgb(60, 196, 0); margin:0px; font-size: 2rem;}
+		h3{font-family: 'Noto Sans KR', sans-serif; color: white; font-size:3rem; font-weight: 700; margin:0px; margin-top:10px;}
+		h4{font-family: 'Noto Sans KR', sans-serif; color: white; font-size:1rem; font-weight: 500; margin:0px; margin-top:10px;}
+		h5{color: white; font-size: 4rem; margin:0px;}
+		h6{color: white; font-size: 2rem; margin:0px; margin-top: 200px;}
+
+		
+		.frankenbtm{z-index: 10; height: 100px;}
+		.frankenbltop{padding-top: 900px;}
+		.headertext{font-size: 4rem; font-weight: 700; color: white;}
+		.whiteline1{position: sticky; top: 400px; background-color: white; width:100%; height:10px; z-index: 25;}
+		.whiteline2{position: absolute; top: 3000px; background-color: white; width:100%; height:10px; z-index: 30;}
+		.greenline1{position: sticky; top: 400px; background-color: rgb(60, 196, 0); width:100%; height:10px; z-index: 30;}
+		.greenline2{position: absolute; top:4380px; background-color: rgb(60, 196, 0); width:100%; height:10px; z-index: 30;}
+		.greenline3{position: absolute; top:9900px; left: 400px; background: linear-gradient(180deg, rgba(60,196,0,0) 6%, rgba(60,196,0,1) 35%, rgba(60,196,0,1) 78%, rgba(60,196,0,0) 98%); width:100px; height:3600px; z-index: 20;}
+		.greenline4{position: absolute; top:9900px; right: 400px; background: linear-gradient(180deg, rgba(60,196,0,0) 6%, rgba(60,196,0,1) 35%, rgba(60,196,0,1) 78%, rgba(60,196,0,0) 98%); width:100px; height:3600px; z-index: 20;}
+		.introduction{position: relative;}
+		.torsobg{position: relative; top:0; left: -300px; height: 1500px; z-index: 20; width: 140%;}
+		.torso{position: absolute; top:0px; left:300px; width: 60%; z-index: 27;}
+		.blackbox{position: sticky; top: 000px; background: black; width: 100%; height: 500px; z-index: 25;}
+		.blackbox2{position: absolute; top: ; background: black; width: 100%; height: 100px; z-index: 31; margin-top: 250px; z-index: 29;}
+		.victor{margin:auto;}
+		
+		.agrid{margin-top: 100px; width: 3070px; height: 650px; background: url(anatomy/frank1.svg); overflow: hidden;transition: all 0.5s; z-index: 30;}
+		.agrid:hover{width: 1335px; height: 750px; background: url(anatomy/frank2.svg);}
+
+
+		.helva{width: 357px; height: 357px; background: url(anatomy/helva.svg); transition: all 0.5s ;z-index: 30;}
+		.helva:hover{width: 357px; height: 357.5px; background: url(anatomy/helva2.svg); z-index: 30;}
+
+
+		.fraka{width: 357px; height: 357px; background: url(anatomy/fraka.svg); transition: all 0.5s; z-index: 30;}
+		.fraka:hover{width: 357px; height: 357px; background: url(anatomy/fraka2.svg); z-index: 30;}
+
+
+		.afex{width: 1500px; height: 638px; background: url(anatomy/afextrans.svg); transition: all 0.5s;}
+		.afex:hover{width: 1500px; height: 638px; background: url(anatomy/afex.svg);}
+
+		.atoz{width: 1500px; height: 548px; background: url(atoz/atoztrans.svg);transition: all 0.3s;}
+		.atoz:hover{width: 1500px; height: 548px; background: url(atoz/atoz.svg);}
+
+
+		.numbers{width: 1500px; height: 227px; background: url(numbers/numberstrans.svg);transition: all 0.3s;}
+		.numbers:hover{width: 1500px; height: 227px; background: url(numbers/numbers.svg);}
+
+
+		.bliss1{width: 1500px; height: 200px; background: url(sentence/blisstrans1.svg); transition: all 1s;z-index: 30;}
+		.bliss1:hover{width: 1900px; height: 250px; background: url(sentence/blisstrans1.svg);z-index: 30}
+		.bliss2{width: 1500px; height: 200px; background: url(sentence/blisstrans2.svg); transition: all 1s; z-index: 30;}
+		.bliss2:hover{width: 1900px; height: 250px; background: url(sentence/blisstrans2.svg); z-index: 30}
+		.bliss3{width: 1500px; height: 227px; background: url(sentence/blisstrans3.svg); transition: all 1s; z-index: 30;}
+		.bliss3:hover{width: 1900px; height: 300px; background: url(sentence/blisstrans3.svg); z-index: 30}
+
+		.devil1{width: 1500px; height: 200px; background: url(sentence/deviltrans1.svg); transition: all 1s; z-index: 30;}
+		.devil1:hover{width: 1900px; height: 250px; background: url(sentence/deviltrans1.svg);transition: all 1s; z-index: 30}
+		.devil2{width: 1500px; height: 200px; background: url(sentence/deviltrans2.svg); transition: all 1s ; z-index: 30;}
+		.devil2:hover{width: 1900px; height: 250px; background: url(sentence/deviltrans2.svg);}
+
+		.none1{width: 1500px; height: 200px; background: url(sentence/none1.svg); transition: all 1s ; z-index: 30}
+		.none1:hover{width: 1900px; height: 250px; background: url(sentence/none1.svg); transition: all 1s ; z-index: 30}
+		.none2{width: 1500px; height: 200px; background: url(sentence/none2.svg); transition: all 1s ;z-index: 30}
+		.none2:hover{width: 1900px; height: 250px; background: url(sentence/none2.svg); transition: all 1s ;z-index: 30}
+		.none3{width: 1500px; height: 200px; background: url(sentence/none3.svg); transition: all 1s ;z-index: 30}
+		.none3:hover{width: 1900px; height: 250px; background: url(sentence/none3.svg); transition: all 1s ;z-index: 30}
+		.none4{width: 1500px; height: 200px; background: url(sentence/none4.svg); transition: all 1s ;z-index: 30}
+		.none4:hover{width: 1900px; height: 250px; background: url(sentence/none4.svg); transition: all 1s ;z-index: 30}
+
+		.row{display: flex; padding: 0px 5px; margin-top: 0px; margin-bottom: 20px; }
+		.col-1{width: calc(100% / 8 * 1 - 10px); background: none; 
+				margin: 0px 5px;}
+		.col-2{width: calc(100% / 8 * 2 - 10px); background: none;
+				margin: 0px 5px;}
+		.col-3{width: calc(100% / 8 * 3 - 10px); background: none; 
+				margin: 0px 5px;}
+		.col-4{width: calc(100% / 8 * 4 - 10px); background: none;
+				margin: 0px 5px;}
+		.col-5{width: calc(100% / 8 * 5 - 10px); background: none;
+				margin: 0px 5px;}
+		.col-6{width: calc(100% / 8 * 6 - 10px); background: none;
+				margin: 0px 5px;}
+		.col-7{width: calc(100% / 8 * 7 - 10px); background: none;
+				margin: 0px 5px;}
+		.col-8{width: calc(100% / 8 * 8 - 10px); background: none;
+				margin: 0px 5px;}
+
+		.bg-black{background: grey;}
+		.center{margin-left: auto; margin-right: auto; width: 50%;}
+
+	</style>
+</head>
+<body>
+	<header>
+		<section style="height: 1500px;">
+		<div class="frankenbltop">
+			<img src="header/franken bl top.png">
+		</div>
+
+	<div class="frankenbtm" style="position: sticky; top: 800px;" style="background: yellow;">
+		<img src="header/franken btm.png">
+		</div>
+<div style="background: none; width: 1499px; height: 100px; position: top:100px; z-index: 100;"></div>	
+	</section>
+</header>
+	<section style="height: 900px;">
+				<div class="whiteline1" style="z-index: 27;"></div>
+		<div class="blackbox">
+			<div class="victor">
+				<h1>introducing FRANKENSTEIN</h1>
+				<h3>프랑켄슈타인</h3>
+
+			</div>
+		</div>
+		<div class="introduction">
+			
+			</*img src="torso/torso bg.png" class="torsobg"*/>
+			<img src="torso/torso.png" class="torso">
+		</div>
+	</section>
+	<section>
+		<div class="whiteline2"></div>
+		<div class="blackbox2">
+		</div>
+	</section>
+	<section>
+		<div class="row" style="margin-top: 130px; z-index: 31">
+			<div class="col-2">
+			</div>
+			<div class="col-2" style=" margin:0px; text-align: right;">
+				<h2 style="font-size: 3rem;">'FRANKENSTEIN'</h2>
+			</div>
+			<div class="col-4">
+				<h2 style="margin-top: 50px;"> is a typeface designed after<br>Mary Shelly’s novel, 'frankenstein, 1818'
+				<h4>마리 쉘리의 소설 <프랑켄슈타인, 1818>의 영감을 받아 제작된 글자체이다.</h4>
+			</div>
+		</div>
+	</section>
+	<section style="margin-top:500px;">
+		<div class="greenline1"></div>
+		<div class="blackbox" style="height: 200px;">
+			<div class="victor">
+			<h1>concept</h1>
+				<h3>컨셉</h3></div>
+			</div>
+		<div class="row" style="height: 100px; margin-top: 200px;">
+			<div class="col-1">b</div>
+			<div class="col-2" style="z-index: 30">
+
+			<img src="f/fbl.svg" style="width:100%; height: 200%;">
+			</div>
+			<div class="col-1">b</div>
+			<div class="col-1">b</div>
+			<div class="col-2" style="z-index: 30">
+			<img src="f/fss.svg" style="width:100%; height: 200%;">
+			</div>
+			<div class="col-1">b</div>
+		</div>
+		<div class="greenline2"></div>
+	</section>
+<section class="bg-none" style="margin-top: 300px">
+		<div class="row" >
+			<div class="col-1">b</div>
+			<div class="col-2 bg-white" style="text-align: center;">
+				<h2>blackletter</h2>
+				<h4>15세기 유럽 인쇄물의 표준적 글자체</h4></div>
+				<div class="col-1">b</div>
+				<div class="col-1">b</div>
+			<div class="col-2" style="text-align: center;">
+				<h2>neo grotesque</h2>
+				<h4>유럽과 스위스의 모더니즘 디자인을 미국에 전파</h4>
+			</div>
+			<div class="col-1">b</div>
+		</div>
+		<div class="col-8">
+			<h4 style="text-align: center; margin-top: -50px;">과학자 빅터가 죽은 자들을 조립해 새로운 생명체를 만들어내었듯이<br>
+두 가지 글자체의 형태적 특성을 하나로 융합해 디자인한 글자체이다.</h3>
+		</div>
+	</section>
+	
+		<section class="bg-blue" style="margin-top: 200px;">
+		<div class="row">
+			<div class="col-2">
+				<h1>design</h1>
+				<h3>디자인</h3>
+				</div>
+			<div class="col-2">b</div>
+		</div>
+	</section>
+	<section class="bg-blue" style="margin-top: -100px;">
+		<div class="row" style="">
+			<div class="col-4 row" style= "margin-top: 250px;">
+			<div class="col-4"><div class="fraka"></div></div>
+			<div class="col-4"><div class="helva"></div></div>
+			</div>
+			<div class="col-4" style="overflow: hidden; height: 750px;">
+				<div class="agrid" style=""></div>
+				</div>
+		</div>
+	</section>
+		<section class="bg-blue">
+		<div class="row">
+			<div class="col-4 row" style= "margin-top: 400px;">
+			<div class="col-4" style="text-align: center; height: 50px;"> <h2>fette fraktur</h2></div>
+			<div class="col-4" style="text-align: center; height: 50px;"><h2>helvetica</h2></div>
+			</div>
+			<div class="col-4">
+				</*img src="anatomy/a.svg">
+				</div>
+		</div>
+	</section>
+			<section class="bg-blue">
+		<div class="row">
+			<div class="col-4 row">
+				<div class="col-1"></div>
+			<div class="col-4" style="text-align: left; margin-top: 270px"><h4>- 획의 굵기 차이가 대조적<br>
+- 끝이 넓적한 펜으로 쓴 수직적 글자체<br>
+- 신약성서 독일어 번역본에 사용된 서체<br></h4></div>
+<div class="col-1"></div>
+			<div class="col-4" style="text-align: left; margin-top: 270px"><h4>- 수평수직의 깔끔한 질서<br>
+- 글자폭의 차이, 획의 굵기 차이가 일정<br>
+- 2007년 아이폰 OS에 사용된 서체<br></h4></div>
+			</div>
+			<div class="col-4">
+				<img src="">
+				</div>
+		</div>
+	</section>
+
+
+
+
+
+
+	<section class="bg-blue" style="margin-top: 600px;">
+		<div class="row">
+			<div class="col-2">
+				<h1>anatomy</h1>
+				<h3>구조</h3>
+				</div>
+			<div class="col-2">b</div>
+		</div>
+	</section>
+		<section class="bg-blue">
+		<div class="row">
+			<div class="col-8">
+<div class="afex"></div>
+				 
+				</div>
+		</div>
+	</section>
+
+
+
+	<section class="bg-blue" style="margin-top: 800px;">
+		<div class="row">
+			<div class="col-2">
+				<h1>a to z</h1>
+				<h3>로마자</h3>
+				</div>
+			<div class="col-2">b</div>
+		</div>
+	</section>
+		<section class="bg-blue" style="margin-top: 50px;">
+		<div class="row">
+			<div class="col-8">
+				<div class="atoz">
+					
+				<div>
+				</div>
+		</div>
+	</section>
+
+	<section class="bg-blue" style="padding-top: 900px;">
+		<div class="row">
+			<div class="col-2">
+				<h1>numbers</h1>
+				<h3>숫자</h3>
+				</div>
+			<div class="col-2">b</div>
+		</div>
+	</section>
+			<section class="bg-blue" style="margin-top: 200px;">
+		<div class="row">
+			<div class="col-8">
+				<div class="numbers"></div>
+				</div>
+		</div>
+	</section>
+	<section class="bg-blue" style="margin-top: 500px;">
+		<div class="greenline3" ></div>
+		<div class="greenline4" ></div>
+		<div class="row">
+			<div class="col-2">
+				<h1>sentence</h1>
+				<h4>문장</h4>
+				</div>
+			<div class="col-2">b</div>
+		</div>
+	</section>
+		<section class="bg-none" style="margin-top: 300px;">
+			<div class="bliss1"></div>
+			<div class="bliss2"></div>
+			<div class="bliss3"></div>
+
+	</section>
+			<section class="bg-none" style="margin-top: 400px;">
+			<div class="devil1"></div>
+			<div class="devil2"></div>
+	</section>
+
+		<section class="bg-none" style="margin-top: 400px;">
+			<div class="none1"></div>
+			<div class="none2"></div>
+			<div class="none3"></div>
+			<div class="none4"></div>
+	</section>
+
+<footer>
+<div class="greenline1" style="margin-top: 1000px;"></div>
+	<section class="bg-blue">
+			<div style="padding-top: 500px;">
+		<img src="footer/footer.svg" style="width: 30%;">
+	</div>
+		<div class="row" style="margin-top: 500px;">
+			<div class="col-1">
+				</div>
+			<div class="col-2">
+				<h5>typography design</h5>
+				<h6>park han kyeol</h6>
+				</div>
+				<div class="col-1">
+				</div>
+				<div class="col-3">
+					<h5><br>contact</h5>
+					<h6>park han kyeol</h6>
+					<h6 style="font-size: 1.5rem; margin-top: 0;">seoul, south korea<br>hanpinawa119@g.seoultech.ac.kr</h7>
+				</div>
+				<div class="col-1">
+				</div>
+		</div>
+	</section>
+</footer>
+
+</body>
+</html>
